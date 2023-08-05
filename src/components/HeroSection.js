@@ -35,7 +35,7 @@ const HeroSection = () => {
             building great products.
             <br /> Interested in working together? Feel free to schedule a meet
           </p>
-          <a href="">
+          <a href="https://drive.google.com/file/d/1zQsv5FFRV7_NWpWKEE0U8cRPX6BXmaMv/view">
             <button className="bg-zinc-700 p-1 text-white px-1 text-sm rounded-md font-sans ml-3 mt-3">
               Check my resume
             </button>

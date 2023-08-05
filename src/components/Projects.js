@@ -11,11 +11,19 @@ const Projects = () => {
           </h1>
 
           <ul className="flex mb-4">
-            <li className="text-xs mr-1">Live preview</li>
-            <i class="fa fa-external-link" aria-hidden="true"></i>
+            <a className="flex" href="https://my-pokemongenerator.netlify.app/">
+              <li className="text-xs mr-1">Live</li>
+              <i class="fa fa-external-link" aria-hidden="true"></i>
+            </a>
 
-            <li className="text-xs ml-3 mr-1">GitHub </li>
-            <i class="fa fa-external-link" aria-hidden="true"></i>
+            <a
+              className="flex mx-3"
+              href="https://github.com/Abhisheksingh734/PokemonGenerator"
+              target="_blank"
+            >
+              <li className="text-xs mx-1">GitHub</li>
+              <i class="fa fa-external-link" aria-hidden="true"></i>
+            </a>
           </ul>
           <p className="mt-2 text-[14px]">
             {" "}
@@ -46,17 +54,28 @@ const Projects = () => {
         </div>
       </div>
 
+      {/** project 2
+       */}
+
       <div className="border-l-2 my-12 hover:border-l-orange-300">
         <div className="text-zinc-500 mt-2 text-base font-normal text-[14px] ml-4 leading-7">
           <h1 className="text-zinc-700 font-normal  text-[19px]">
             My Youtube Clone
           </h1>
           <ul className="flex mb-4">
-            <li className="text-xs mr-1">Live preview</li>
-            <i class="fa fa-external-link" aria-hidden="true"></i>
+            <a className="flex" href="https://my-ytclone.netlify.app/">
+              <li className="text-xs mr-1">Live</li>
+              <i class="fa fa-external-link" aria-hidden="true"></i>
+            </a>
 
-            <li className="text-xs ml-3 mr-1">GitHub </li>
-            <i class="fa fa-external-link" aria-hidden="true"></i>
+            <a
+              className="flex mx-3"
+              href="https://github.com/Abhisheksingh734/my-youtubeClone"
+              target="_blank"
+            >
+              <li className="text-xs mx-1">GitHub</li>
+              <i class="fa fa-external-link" aria-hidden="true"></i>
+            </a>
           </ul>
           <p className="mt-2 text-[14px]">
             {" "}
